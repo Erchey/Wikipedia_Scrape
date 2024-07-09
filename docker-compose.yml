@@ -3,19 +3,6 @@ version: '3.1'
 
 services:
 
-  # ercheymysqldb:
-  #   image: mysql
-  #   restart: always
-  #   environment:
-  #     MYSQL_ROOT_PASSWORD: Example123##!!
-  #     MYSQL_DATABASE: ercheydb
-  #     MYSQL_USER: erchey
-  #     MYSQL_PASSWORD: Ercheypass123#
-  #   volumes:
-  #     - mysqldb-volume:/var/lib/mysql
-  #   ports:
-  #     - 3306:3306
-
   postgresdb:
     image: postgres
     restart: always
